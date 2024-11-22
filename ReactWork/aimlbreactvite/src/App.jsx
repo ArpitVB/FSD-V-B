@@ -2,6 +2,8 @@ import React from 'react'
 import './App.css'
 import Student from './Student.jsx'
 import logo from './assets/OIP (1).jpeg'
+import StudentState from './StudentState.jsx'
+import Image_manipulation from './Image_manipulation.jsx'
 
 function App() {
 
@@ -39,6 +41,11 @@ function App() {
 
     <Student data = {student_data}/>
 
+
+    
+    <StudentState/>
+
+    <Image_manipulation/>
 
 
 
