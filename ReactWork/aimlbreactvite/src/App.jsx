@@ -4,6 +4,7 @@ import Student from './Student.jsx'
 import logo from './assets/OIP (1).jpeg'
 import StudentState from './StudentState.jsx'
 import Image_manipulation from './Image_manipulation.jsx'
+import UseEffect from './UseEffect.jsx'
 
 function App() {
 
@@ -46,6 +47,8 @@ function App() {
     <StudentState/>
 
     <Image_manipulation/>
+
+    <UseEffect/>
 
 
 
