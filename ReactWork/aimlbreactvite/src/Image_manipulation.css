@@ -5,7 +5,8 @@
     width: 20%;
     text-align: center;
     padding: 20px;
-    height: 400px;
+    min-height: 400px;
+    min-width: fit-content;
 
     border-radius: 20px;
     color: white;
@@ -17,9 +18,11 @@
 }
 
 .imgdiv{
-    background-color: black;
+     background-color: black;
     padding: 20px;
     border-radius: 10px;
+    min-height:max-content;
+    min-width: min-content;
 }
 
 .btn{
